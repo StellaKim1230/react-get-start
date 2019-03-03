@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import LikeButton from './components/LikeButton'
+import Main from './components/Main'
 
 class App extends Component {
   render() {
     return (
-      <LikeButton />
+      <Main name="kimjieun"/>
     );
   }
 }
