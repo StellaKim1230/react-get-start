@@ -4,6 +4,10 @@ import Comment from './Comment'
 
 class Main extends Component {
 
+  // componentDidMount() {
+  //   setInterval(this.formatDate, 1000);
+  // }
+
   formatName = (user) => {
     return user.firstName + ' ' + user.lastName
   }

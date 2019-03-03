@@ -4,6 +4,10 @@ import UserInfo from './UserInfo'
 
 class Comment extends Component {
 
+  // componentDidMount() {
+  //   setInterval(this.formatDate, 1000);
+  // }
+
   formatDate = () => {
     return new Date().toLocaleTimeString()
   }
