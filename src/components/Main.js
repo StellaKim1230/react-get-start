@@ -1,12 +1,9 @@
 import React, { Component, Fragment } from 'react';
 
 import Comment from './Comment'
+import Clock from './Clock'
 
 class Main extends Component {
-
-  // componentDidMount() {
-  //   setInterval(this.formatDate, 1000);
-  // }
 
   formatName = (user) => {
     return user.firstName + ' ' + user.lastName
@@ -40,6 +37,7 @@ class Main extends Component {
           text={text}
           date={date}
         />
+        <Clock/>
       </Fragment>
     );
 
